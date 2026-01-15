@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: rgb(14, 73, 16) ;
+  --secondary-color: rgb(90, 56, 41) ;
+  --accent1-color: rgb(111, 165, 111);
+  --accent2-color: rgb(233, 214, 39);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: rgb(14, 73, 16);  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: rgb(14, 73, 16); /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: rgb(14, 73, 16)  ;
+  --nav-link-color: rgb(111, 165, 111);
+  --nav-background-color: rgb(90, 56, 41);
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: rgb(67, 131, 67);
 }
 
 
