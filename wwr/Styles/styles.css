@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: PT sans, 'Gill Sans', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+div #content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 0;
+}
+
+header{
+    background-color: #5a3829;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #8fc18f;
+    color: white;
+}
+
+.home-title{
+    color: #0e4910;
+    font-family: Raleway, 'Gill Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.book,.join{
+    background-color: #5a3829;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover{
+    background-color: #8fc18f;
+    color: #0e4910;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+#background{
+    background-color: #5a3829;
+}
+
+.msg{
+    background-color:  #5a3829;
+    padding: 35px;
+}
+
+section .msg{
+    line-height: 1.5em;
+}
+
+.msg h2{
+    color: white;
+    font-family: Raleway, 'Gill Sans', sans-serif;
+}
+
+.msg p{
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+footer{
+    background-color:  #5a3829;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:  #8fc18f;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
