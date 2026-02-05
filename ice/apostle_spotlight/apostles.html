@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #e8eced;
+            justify-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        main{
+            width: 100%;
+            justify-items: center;
+        }
+
+        h1{
+            margin: 0.25em auto;
+            font-size: 2.5em;
+            font-weight: 10;
+        }
+
+        h2{
+            font-size: 1.7em;
+            font-weight: 30;
+        }
+
+        #card{
+            margin: 1em auto;
+            width:75%;
+            border-radius: 5%;
+            border: 10px solid black;
+            color: white;
+            text-align: center;
+            background-image: url(images/christus.webp);
+            background-size: cover;
+            width: 70%;
+            background-position: 50% 50%;
+        }
+
+        #first-presidency #large-image{
+            width: 200px;
+            height: 200px;
+        }
+
+        #first-presidency #medium-image{
+            width: 175px;
+            height: 175px;
+        }
+
+        #small-image{
+            width: 125px;
+            height: 125px;
+        } 
+
+        #card img{ 
+            border-radius: 50%;
+            border: 10px solid white;
+            object-position: top; 
+            object-fit: cover; 
+        }
+
+
+        #first-presidency{
+            width: 50%;
+            margin: 0 auto 1em;
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+        }
+
+        #quorum{
+            width: 50%;
+            margin: 1em 21% 3em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 3em;
+            font-size: 0.5em;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div id="card">
+            <h1>
+                First Presidency
+            </h1>
+            <div id="first-presidency">
+                <img src="images/eyring.webp" alt="President Eyring" id="medium-image">
+                <img src="images/oaks.webp" alt="Preisdent Oaks" id="large-image">
+                <img src="images/christofferson.webp" alt="President Christofferson" id="medium-image">
+            </div>
+
+            <h2>
+                Quorum of the Twelve Apostles
+            </h2>
+            <div id="quorum">
+                <img src="images/holland.webp" alt="Elder Holland" id="small-image">
+                <img src="images/uchtdorf.webp" alt="Elder Uchtdorf" id="small-image">
+                <img src="images/bednar.webp" alt="Elder Bednar" id="small-image">
+                <img src="images/cook.webp" alt="Elder Cook" id="small-image">
+                <img src="images/anderson.webp" alt="Elder Anderson" id="small-image">
+                <img src="images/rasband.webp" alt="Elder Rasband" id="small-image">
+                <img src="images/stevenson.webp" alt="Elder Stevenson" id="small-image">
+                <img src="images/renlund.webp" alt="Elder Renlund" id="small-image">
+                <img src="images/gong.webp" alt="Elder Gong" id="small-image">
+                <img src="images/soares.webp" alt="Elder Soares" id="small-image">
+                <img src="images/kearon.webp" alt="Elder Kearon" id="small-image">
+                <img src="images/causse.webp" alt="Elder Causse" id="small-image"> 
+            </div>
+        </div>
+    </main>
+</body>
+</html>
