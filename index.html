@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackson Edwards | WDD130 | Home</title>
+    <link rel="stylesheet" href="styles/index-styles.css">
 </head>
 <body>
 
     <header>
-
-        <img src="Images/Personal-Page-Logo.png" alt="Logo" width="200px">
+        <div><img src="Images/Personal-Page-Logo.png" alt="Logo" width="200px"></div>
+        
 
         <nav>
             <a href="wwr/index.html" target="_blank">W.W.R. Site</a>
@@ -23,15 +24,23 @@
 
         <div id="blurb">
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eligendi velit odit inventore recusandae optio nam, saepe eaque cumque? Iusto numquam ipsa esse quibusdam nesciunt. Tempora cum a sunt aperiam.</p>
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo praesentium tempora magni optio nihil iure aperiam debitis eaque sint voluptatem velit laudantium, 
+                autem minima consequatur expedita sequi ipsa, neque culpa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate quae reprehenderit pariatur libero et porro, 
+                tempore aperiam numquam debitis vitae cum dicta cumque, laboriosam voluptatum voluptates amet ratione dolore rem! Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Dolor eligendi eius quam reprehenderit Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis illum, libero sed quasi nemo asperiores tempora assumenda aliquid
+                velit error aspernatur, praesentium quis vero explicabo distinctio. Quod, nemo error! </blockquote>
 
-            <img src="https://picsum.photos/200/250" alt="image">
+            <!-- <div id="blurb_mages"> -->
 
-            <img src="https://picsum.photos/200/250" alt="image">
+                <div id="image_one_container"><img src="https://picsum.photos/300/350" alt="image"></div>
+
+                <div id="image_two_container"><img src="https://picsum.photos/300/350" alt="image"></div>
+
+            <!-- </div> -->
 
         </div>
 
-        <div id="table">
+        <div id="table_list">
 
             <table>
 
@@ -116,55 +125,59 @@
                 
             </table>
 
-        </div>
+            
+            <div id="list">
 
-        <div id="list">
+                <h2>
 
-            <h2>
+                    Programming Languages:
 
-                list
+                </h2>
 
-            </h2>
+                <ul>
 
-            <ul>
+                    <li>
+                        Python
+                    </li>
 
-                <li>
-                    1
-                </li>
-                    
-                <li>
-                    2
-                </li>
+                    <li>
+                        C#
+                    </li>
 
-                <li>
-                    3
-                </li>
+                    <li>
+                        HTML
+                    </li>
 
-            </ul>
+                </ul>
 
+            </div>
         </div>
 
         <div id="contact-info">
-
-            <h1>
+            
+            <h1 id="large_text">
                 Want to get in contact?
             </h1>
 
-            <h2>
-                Leave your information!
-            </h2>
-
-            <form action="">
-
-                <input type="text" placeholder="Name">
+            <div id="contact_form">
                 
-                <input type="text" placeholder="Phone Number">
-                
-                <input type="text" placeholder="Email">
+                <h2>
+                    Leave your information!
+                </h2>
 
-                <input type="submit">
-            
-            </form>
+                <form action="">
+
+                    <input type="text" placeholder="Name">
+
+                    <input type="text" placeholder="Phone Number">
+
+                    <input type="text" placeholder="Email">
+
+                    <input type="submit" id="submit">
+                
+                </form>
+
+            </div>
 
         </div>
 
@@ -176,18 +189,27 @@
 
         <div id="socials">
 
-            <a href="#" target="_blank">
-                <img src="https://picsum.photos/100" alt="">
-            </a>
-            
-            <a href="#">Github</a>
-            
-            <a href="#" target="_blank">
-                <img src="https://picsum.photos/100" alt="">
-            </a>
+            <div class="site">
 
-            <a href="#">Linkedin</a>
+                <a href="https://github.com/" target="_blank" class="picture_link">
+                <img src="Images/github.png" alt="">
+                </a>
+                
+                <a href="https://github.com/" target="_blank" class="text_link">Github</a>
+                
+            </div>
+
+            <div class="site">
+
+                <a href="https://www.linkedin.com/" target="_blank" class="picture_link">
+                    <img src="Images/linkedin.png" alt="">
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" class="text_link">Linkedin</a>
         
+            </div>
+
+            
         </div>
 
     </footer>

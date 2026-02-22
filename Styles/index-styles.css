@@ -1,55 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Lexend+Deca:wght@100..900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
-}
-
 body{
-    max-width: 1000px;
-    margin: 0 auto;
+    font-family: "Hepta Slab", Georgia, Serif;
 }
 
-nav{
-    border: 3px solid #4a4326;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    background-color: gray;
-    padding: 2em;
+header{
+    display: flex;
+    gap: 100px;
+    background-color: #274C77;
+    height: 80px;
+    padding: 45px 10px;
+    align-items: center;
+}
+
+header div{
+    padding-top: 140px;
+    padding-left: 50px;
+}
+header img{
+    height: max-content;
+    transform: scale(1.1);
+    border-radius: 50%;
+    border: 10px solid #274C77;
 }
 
 nav a{
+    padding: 0 50px;
+    color: #E7ECEF;
+    font-size: larger;
     text-decoration: none;
-    color: white;
+}
+
+nav a:hover{
+    color: #A3CEF1;
+    text-decoration: underline;
 }
 
 main{
+    font-family: "Lexend Deca", Arial, "San Serif";
+}
+
+#blurb{
+    background-color: #E7ECEF;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 50px; 
 }
 
-section#blue{
-    background-color: lightblue;
+#blurb img{
+    border-radius: 10px;
+    box-shadow: 0 4px 12px black;
 }
 
-section#green{
-    background-color: lightgreen;
+#blurb blockquote{
     grid-column: 1/2;
-    grid-row: 1/2;
+    padding: 100px 50px 0px 100px;
 }
 
-section#red{
-    background-color: lightcoral;
+#image_one_container{
+    align-self: center;
     grid-column: 2/3;
     grid-row: 1/2;
+    width: 320px;
+    height: 470px;
+    padding-left: 150px;
+    padding-bottom: 25px;
+     position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
 }
 
-section#about{
-    grid-column: 1/4;
+#image_two_container{
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 320px;
+    height: 470px;
+    padding-top: 100px;
+    padding-left: 50px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+#image_one_container:hover,
+#image_two_container:hover{
+    transform: scale(1.08);
+    z-index: 10;
+}
+
+#table_list{
+    background-color: #A3CEF1;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #E7ECEF;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid #8B8C89;
+    padding: 10px 30px;
+}
+
+th{
+    font-size: larger;
+}
+
+#list{
+    padding-left: 120px;
+}
+
+#list h2{
+    padding: 10px;
+}
+
+#list li{
+    padding: 15px;
+}
+
+#contact-info{
+    background-color: #E7ECEF;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#large_text{
+    font-size: 2.5em;
+    padding-top: 30px;
+    padding-left: 200px;
+    text-align: center;
+    width: 450px;
+}
+
+#contact_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 70px;
+    gap: 10px;
+}
+
+#contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+}
+
+#contact_form form #submit{
+    align-self: center;
+    width: 75px;
+}
+
+footer{
+    background-color: #274C77;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+footer p{
+    padding-top: 30px;
+    color: #E7ECEF;
+}
+
+footer #socials{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture_link{
+    text-decoration: none;
+}
+
+.picture_link img{
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.text_link{
+    color: #E7ECEF;
+    text-decoration: none;
+}
+
+.text_link:hover{
+    color: #A3CEF1;
+    text-decoration: underline;
 }
