@@ -255,7 +255,7 @@ th{
     grid-row: 1/2;
 }
 
-#apostle_spotlight, #valentines, #positioning, #signupForm{
+#apostle_spotlight, #valentines, #positioning, #signupForm, #lead, #reflection{
     background-color: #A3CEF1;
 }
 
@@ -294,6 +294,48 @@ div.description > a:hover{
 
 #resume{
     background-color: #A3CEF1;
+}
+
+#client, #lead, #junior, #reflection{
+    padding: 10px 0;
+}
+
+#client > h2, h3, p, a{
+    padding: 5px;
+} 
+
+#lead > h2, h3, p, a{
+    padding: 5px;
+}
+
+#junior > h2, h3, p, a{
+    padding: 5px;
+}
+
+#reflection > h2, h3, p, a{
+    padding: 5px;
+}
+
+#client > h2{
+    padding-top: 150px;
+}
+
+#client > h2, #lead > h2, #junior > h2, #reflection > h2{
+    margin-left: 20px;
+}
+
+#client > h3, #lead > h3, #junior > h3, #reflection > h3{
+    margin-left: 30px;
+}
+
+#client > p, #lead > p, #junior > p, #reflection > p{
+    max-width: 750px;
+    margin-left: 50px;
+}
+
+#client > a, #lead > a, #junior > a{
+    margin-left: 50px;
+    text-decoration: none;
 }
 
 /* ------------------------------------------------------------------ */
